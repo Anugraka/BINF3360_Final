@@ -1,7 +1,7 @@
 # BINF3360_Final
 Motif Discovery Benchmarking Project
 
-This project compares four motif discovery algorithms—Greedy Motif Search, Randomized Motif Search, Gibbs Sampling, and an Entropy-Based Position Projection (EPP) algorithm—using gene expression–derived DNA sequences from multiple sclerosis (MS) data. The goal is to evaluate differences between deterministic and stochastic approaches in terms of motif quality, sequence similarity, and computational performance.
+This project compares four motif discovery methods: Greedy Motif Search, Randomized Motif Search, Gibbs Sampling, and an Entropy-Based Position Projection (EPP) method using DNA sequences from gene expression data in multiple sclerosis (MS). The goal is to compare how deterministic and stochastic methods perform in terms of motif quality, sequence similarity, and computation time.
 
 Dataset: The dataset is derived from GEO dataset GSE135511 and processed using GEO2R differential expression analysis. Genes were filtered based on statistical significance and functional similarity (protein binding category via STRING). Corresponding DNA sequences were used as input for motif discovery.
 
